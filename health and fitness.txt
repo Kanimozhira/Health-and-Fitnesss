@@ -1,0 +1,132 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\kanim\Desktop> node -v
+v20.12.2
+PS C:\Users\kanim\Desktop> npm -v
+10.5.0
+PS C:\Users\kanim\Desktop> npm install -g express-generator
+npm WARN deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Notethat the API surface has changed to use Promises in 1.x.)
+
+changed 10 packages in 4s
+PS C:\Users\kanim\Desktop> git config --global user.name "Your Name"
+PS C:\Users\kanim\Desktop> git config --global user.email "your.email@example.com"
+PS C:\Users\kanim\Desktop> git config --global user.name"kanimozhi r a"
+error: invalid key: user.namekanimozhi r a
+PS C:\Users\kanim\Desktop> git config --global user.email "kanimozhira2004@gmail.com
+>> "
+PS C:\Users\kanim\Desktop> git config --global user.name "kanimozhi r a"
+PS C:\Users\kanim\Desktop> mkdir health-fitness-tracker
+mkdir : An item with the specified name C:\Users\kanim\Desktop\health-fitness-tracker already exists.
+At line:1 char:1
++ mkdir health-fitness-tracker
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\kanim\...fitness-tracker:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+
+PS C:\Users\kanim\Desktop> cd health-fitness-tracker
+PS C:\Users\kanim\Desktop\health-fitness-tracker> git init
+Reinitialized existing Git repository in C:/Users/kanim/Desktop/health-fitness-tracker/.git/
+PS C:\Users\kanim\Desktop\health-fitness-tracker> mkdir backend frontend
+mkdir : A positional parameter cannot be found that accepts argument 'frontend'.
+At line:1 char:1
++ mkdir backend frontend
++ ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+PS C:\Users\kanim\Desktop\health-fitness-tracker> npm install -g react-native-cli
+npm WARN deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm WARN deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm WARN deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+
+changed 89 packages in 10s
+
+41 packages are looking for funding
+  run `npm fund` for details
+PS C:\Users\kanim\Desktop\health-fitness-tracker> cd frontend
+cd : Cannot find path 'C:\Users\kanim\Desktop\health-fitness-tracker\frontend' because it does not exist.
+At line:1 char:1
++ cd frontend
++ ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\kanim\...racker\frontend:String) [Set-Location], ItemNotFoundE
+   xception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\kanim\Desktop\health-fitness-tracker> npx react-native init HealthFitnessTracker
+prompt: Directory HealthFitnessTracker already exists. Continue?:  (no) (node:19484) Warning: Accessing non-existent property 'padLevels' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+Project initialization canceled
+PS C:\Users\kanim\Desktop\health-fitness-tracker> cd ..
+PS C:\Users\kanim\Desktop> cd backend
+cd : Cannot find path 'C:\Users\kanim\Desktop\backend' because it does not exist.
+At line:1 char:1
++ cd backend
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\kanim\Desktop\backend:String) [Set-Location], ItemNotFoundExce
+   ption
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\kanim\Desktop> npm init -y
+Wrote to C:\Users\kanim\Desktop\package.json:
+
+{
+  "name": "desktop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+PS C:\Users\kanim\Desktop> npm install express mongoose
+
+added 84 packages, and audited 85 packages in 19s
+
+13 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\kanim\Desktop> touch index.js
+touch : The term 'touch' is not recognized as the name of a cmdlet, function, script file, or operable program. Check
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ touch index.js
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (touch:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\kanim\Desktop>
+PS C:\Users\kanim\Desktop> touch .gitignore
+touch : The term 'touch' is not recognized as the name of a cmdlet, function, script file, or operable program. Check
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ touch .gitignore
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (touch:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\kanim\Desktop> echo "node_modules/" >> .gitignore
+PS C:\Users\kanim\Desktop> echo "frontend/node_modules/" >> .gitignore
+PS C:\Users\kanim\Desktop> echo "frontend/android/" >> .gitignore
+PS C:\Users\kanim\Desktop> echo "frontend/ios/" >> .gitignore
+PS C:\Users\kanim\Desktop> git add .
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\kanim\Desktop> git commit -m "Initial project setup"
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\kanim\Desktop> git remote add origin https://github.com/yourusername/health-fitness-tracker.git
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\kanim\Desktop> git branch -M main
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\kanim\Desktop> git push -u origin main
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\kanim\Desktop>
+fwd-i-search: _
